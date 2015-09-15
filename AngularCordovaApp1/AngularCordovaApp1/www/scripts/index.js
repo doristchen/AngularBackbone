@@ -39,7 +39,7 @@
         console.error(error);
     };
 
-    // watch the x, y and z coordinates for change
+    // watch the x, y and z coordinates for change, clean up all ToDo items
     setInterval(function () {
         var change = Math.abs(x1 - x2 + y1 - y2 + z1 - z2);
 
